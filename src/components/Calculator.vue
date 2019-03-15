@@ -28,7 +28,7 @@ export default {
   data(){
     return{
       previous: null,
-      current:'600',
+      current:'83110',
       operator: null,
       oppperatorClicked: false
     }
@@ -60,19 +60,19 @@ export default {
       this.previous = this.current;
       this.operatorClicked = true;
     },
-    divide(number){
-      this.operator = (a,b) => a/b;
+    divide(){
+      this.operator = (a,b) => b/a;
       this.setPrevious();
     },
-    times(number){
+    times(){
       this.operator = (a,b) => a*b;
       this.setPrevious();
     },
-    minus(number){
-      this.operator = (a,b) => a-b;
+    minus(){
+      this.operator = (a,b) => b-a;
       this.setPrevious();
     },
-    add(number){
+    add(){
       this.operator = (a,b) => a+b;
       this.setPrevious();
     },
