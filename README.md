@@ -1,4 +1,5 @@
 # secondapp
+This is a small simple calculator app mimicing the style of a mac calculator application.
 
 ## Project setup
 ```
