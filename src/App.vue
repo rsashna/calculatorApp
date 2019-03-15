@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <Calculator msg="Starting a new Vue.js App"/>
-  </div>
+<div id="app">
+  <Calculator msg="Starting a new Vue.js App" />
+</div>
 </template>
 
 <script>
